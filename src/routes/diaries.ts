@@ -3,7 +3,7 @@ import express from 'express'
 const router = express.Router();
 
 router.get('/', (_req, res) => { 
-    res.send('entrada de datos del diario')
+    res.send('entrada de dats del diario')
 })
 
 router.post('/', (_req, res) => {
