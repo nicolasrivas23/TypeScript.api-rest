@@ -5,5 +5,10 @@ export interface DiaryEntry {
     id: number,
     date: string,
     weather: weather,
-    visibility: visibility
+    visibility: visibility,
+    comment: string
+}
+
+interface SpecialDiaryEntry extends DiaryEntry {
+    flightNumber: number
 }
