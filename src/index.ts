@@ -9,4 +9,4 @@ app.get('/ping', (_req, res) => {
 });
 app.listen(PORT, ()=> {
     console.log('SERVER corriendo local http://localhost:3000/')
-})
+}  )
